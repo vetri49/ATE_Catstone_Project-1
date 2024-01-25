@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-25T12:02:46 IST" name="Default suite" finished-at="2024-01-25T12:02:56 IST" duration-ms="9238">
+    <groups>
+    </groups>
+    <test started-at="2024-01-25T12:02:46 IST" name="Default test" finished-at="2024-01-25T12:02:56 IST" duration-ms="9238">
+      <class name="com.simplilearn.selenium.AddToCartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.simplilearn.selenium.AddToCartTest@a38c7fe]" started-at="2024-01-25T12:02:47 IST" name="setup" finished-at="2024-01-25T12:02:49 IST" duration-ms="2302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addCartPageTest()[pri:1, instance:com.simplilearn.selenium.AddToCartTest@a38c7fe]" started-at="2024-01-25T12:02:49 IST" name="addCartPageTest" description="Test add to cart title match" finished-at="2024-01-25T12:02:56 IST" duration-ms="6696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCartPageTest -->
+        <test-method signature="addCartPageSOurceUrlTest()[pri:2, instance:com.simplilearn.selenium.AddToCartTest@a38c7fe]" started-at="2024-01-25T12:02:56 IST" name="addCartPageSOurceUrlTest" description="Test add cart  page source url" finished-at="2024-01-25T12:02:56 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCartPageSOurceUrlTest -->
+        <test-method signature="homePageTitleTest()[pri:3, instance:com.simplilearn.selenium.AddToCartTest@a38c7fe]" started-at="2024-01-25T12:02:56 IST" name="homePageTitleTest" description="Test sport shoes registartion page title " finished-at="2024-01-25T12:02:56 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:com.simplilearn.selenium.AddToCartTest@a38c7fe]" started-at="2024-01-25T12:02:56 IST" name="cleanup" finished-at="2024-01-25T12:02:56 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- com.simplilearn.selenium.AddToCartTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

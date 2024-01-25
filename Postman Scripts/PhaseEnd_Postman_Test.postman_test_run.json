@@ -1,0 +1,219 @@
+{
+	"id": "b856d55a-8899-46c0-9dcb-94e075060045",
+	"name": "PhaseEnd_Postman_Test",
+	"timestamp": "2024-01-25T05:22:00.514Z",
+	"collection_id": "32338972-5730d36d-2aeb-42d6-ac00-cb9653e568e4",
+	"folder_id": 0,
+	"environment_id": "32338972-a99c59ae-7f61-4ad3-ae3e-1e5904fb4360",
+	"totalPass": 12,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-01-25T05:21:59.752Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "8a57b0e3-ef2d-4a70-a9e9-b1206cccb0f4",
+			"name": "Get Product Request",
+			"url": "http://localhost:9010/get-shoes",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"test with message": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"test with message": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"test with message": true
+				}
+			]
+		},
+		{
+			"id": "10ed5e4c-4ace-426d-b212-cd5760635c8d",
+			"name": "Get User Request",
+			"url": "http://localhost:9010/get-users",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Test the message": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Test the message": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				9
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Test the message": true
+				}
+			]
+		},
+		{
+			"id": "20089b13-f1fe-434d-bd57-b6efe9dfad0b",
+			"name": "Create Product Request",
+			"url": "http://localhost:9010/add-shoe?id=101&image=image_url&name=SampleShoe&category=Running&sizes=9&price=1000",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Test on message": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Test on message": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Test on message": true
+				}
+			]
+		},
+		{
+			"id": "5031b891-2b37-4afe-8aca-96d5aa8f04a2",
+			"name": "Delete Product",
+			"url": "http://localhost:9010/delete-shoe?id=101",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Test on message": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Test on message": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Test on message": true
+				}
+			]
+		},
+		{
+			"id": "becdd13a-4dc3-41df-a80b-9076d1aad43b",
+			"name": "Update Product Request",
+			"url": "http://localhost:9010/update-shoe?id=101&image=1.png&name=BlueWave Running shoes&category=SportsShoes&sizes=7,8,9&price=1500",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Your test name": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Your test name": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				5
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Your test name": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 29,
+	"collection": {
+		"requests": [
+			{
+				"id": "8a57b0e3-ef2d-4a70-a9e9-b1206cccb0f4",
+				"method": "GET"
+			},
+			{
+				"id": "10ed5e4c-4ace-426d-b212-cd5760635c8d",
+				"method": "GET"
+			},
+			{
+				"id": "20089b13-f1fe-434d-bd57-b6efe9dfad0b",
+				"method": "POST"
+			},
+			{
+				"id": "5031b891-2b37-4afe-8aca-96d5aa8f04a2",
+				"method": "DELETE"
+			},
+			{
+				"id": "becdd13a-4dc3-41df-a80b-9076d1aad43b",
+				"method": "PUT"
+			}
+		]
+	}
+}

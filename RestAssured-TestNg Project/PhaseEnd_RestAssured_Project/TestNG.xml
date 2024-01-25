@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="RestAssuredTestNGTest">
+<Listeners>
+          <Listener class-name="org.uncommons.reportng.HTMLReporter" />
+          <Listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+</Listeners>
+<test name="REST APIs">
+   <classes>
+      <class name="com.simplilearn.restassuredtest.AddProduct"></class>
+      <class name="com.simplilearn.restassuredtest.DeleteProduct"></class>
+      <class name="com.simplilearn.restassuredtest.RetrieveAllProducts"></class>
+      <class name="com.simplilearn.restassuredtest.RetrieveAllUsers"></class>
+      <class name="com.simplilearn.restassuredtest.UpdateProduct"></class>
+   </classes>
+</test>
+</suite>

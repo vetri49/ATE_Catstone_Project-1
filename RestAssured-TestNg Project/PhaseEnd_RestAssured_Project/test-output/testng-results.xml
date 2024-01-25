@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-25T12:12:41 IST" name="RestAssuredTestNGTest" finished-at="2024-01-25T12:12:44 IST" duration-ms="2941">
+    <groups>
+    </groups>
+    <test started-at="2024-01-25T12:12:41 IST" name="REST APIs" finished-at="2024-01-25T12:12:44 IST" duration-ms="2941">
+      <class name="com.simplilearn.restassuredtest.UpdateProduct">
+        <test-method signature="testGetProduct()[pri:0, instance:com.simplilearn.restassuredtest.UpdateProduct@38467116]" started-at="2024-01-25T12:12:44 IST" name="testGetProduct" description="Test to update the product in the store" finished-at="2024-01-25T12:12:44 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetProduct -->
+      </class> <!-- com.simplilearn.restassuredtest.UpdateProduct -->
+      <class name="com.simplilearn.restassuredtest.DeleteProduct">
+        <test-method signature="testDeleteProduct()[pri:0, instance:com.simplilearn.restassuredtest.DeleteProduct@72c8e7b]" started-at="2024-01-25T12:12:44 IST" name="testDeleteProduct" description="Test to delete product from the store" finished-at="2024-01-25T12:12:44 IST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteProduct -->
+      </class> <!-- com.simplilearn.restassuredtest.DeleteProduct -->
+      <class name="com.simplilearn.restassuredtest.RetrieveAllUsers">
+        <test-method signature="testGetusers()[pri:0, instance:com.simplilearn.restassuredtest.RetrieveAllUsers@431cd9b2]" started-at="2024-01-25T12:12:44 IST" name="testGetusers" description="Test to get all the register users from the store" finished-at="2024-01-25T12:12:44 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetusers -->
+      </class> <!-- com.simplilearn.restassuredtest.RetrieveAllUsers -->
+      <class name="com.simplilearn.restassuredtest.AddProduct">
+        <test-method signature="testAddProduct()[pri:0, instance:com.simplilearn.restassuredtest.AddProduct@740fb309]" started-at="2024-01-25T12:12:41 IST" name="testAddProduct" description="Test to create a product" finished-at="2024-01-25T12:12:44 IST" duration-ms="2654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddProduct -->
+      </class> <!-- com.simplilearn.restassuredtest.AddProduct -->
+      <class name="com.simplilearn.restassuredtest.RetrieveAllProducts">
+        <test-method signature="testGetProduct()[pri:0, instance:com.simplilearn.restassuredtest.RetrieveAllProducts@65f8f5ae]" started-at="2024-01-25T12:12:44 IST" name="testGetProduct" description="Test to get all the products from the store" finished-at="2024-01-25T12:12:44 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetProduct -->
+      </class> <!-- com.simplilearn.restassuredtest.RetrieveAllProducts -->
+    </test> <!-- REST APIs -->
+  </suite> <!-- RestAssuredTestNGTest -->
+</testng-results>
